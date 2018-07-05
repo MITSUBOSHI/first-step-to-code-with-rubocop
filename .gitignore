@@ -1,0 +1,11 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore vim tmp file
+*.sw*
+*~
+
+/vendor/bundle/
+
+/.idea
+.DS_Store
