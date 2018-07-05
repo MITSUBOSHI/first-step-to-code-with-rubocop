@@ -1,0 +1,70 @@
+AllCops:
+  DisplayCopNames: true
+  DisabledByDefault: true
+
+#################### Rails ###############################
+# From: https://github.com/rubocop-hq/rubocop/tree/master/lib/rubocop/cop/rails
+Rails:
+  Enabled: true
+
+#################### Layout ###############################
+# From: https://github.com/rubocop-hq/rubocop/tree/master/lib/rubocop/cop/layout
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+Layout/FirstParameterIndentation:
+  Enabled: true
+Layout/ExtraSpacing:
+  Enabled: true
+Layout/SpaceInsideParens:
+  Enabled: true
+Layout/EmptyLines:
+  Enabled: true
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: true
+Layout/EmptyLinesAroundClassBody:
+  Enabled: true
+Layout/IndentationWidth:
+  Enabled: true
+Layout/IndentationConsistency:
+  Enabled: true
+
+#################### Lint ###############################
+# From: https://github.com/rubocop-hq/rubocop/tree/master/lib/rubocop/cop/lint
+Lint:
+  Enabled: true
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false
+Lint/UnusedMethodArgument:
+  Enabled: true
+Lint/UselessAssignment:
+  Enabled: true
+
+#################### Style ###############################
+# From: https://github.com/rubocop-hq/rubocop/tree/master/lib/rubocop/cop/style
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: true
+
+#################### Performance ###############################
+# From: https://github.com/rubocop-hq/rubocop/tree/master/lib/rubocop/cop/performance
+Performance:
+  Enabled: true
+Performance/RedundantMerge:
+  Enabled: false
+Performance/TimesMap:
+  Enabled: false
+Performance/StringReplacement:
+  Enabled: false
+Performance/RedundantBlockCall:
+  Enabled: false
+
+#################### Security ###############################
+# From: https://github.com/rubocop-hq/rubocop/tree/master/lib/rubocop/cop/security
+Security:
+  Enabled: true
+
+#################### Bundler ###############################
+# From: https://github.com/rubocop-hq/rubocop/tree/master/lib/rubocop/cop/bundler
+Bundler/DuplicatedGem:
+  Enabled: true
